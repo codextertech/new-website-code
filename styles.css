@@ -10,7 +10,7 @@ body{
 #container{
     display: flex;
     background-color: blueviolet;
-    background: linear-gradient(45% rgba(255, 255, 255) rgba(0, 0, 0,));
+    background: linear-gradient(45deg, rgba(255, 255, 255) rgba(0, 0, 0,));
     width: 100%;
     height: 700px;
 }
@@ -20,7 +20,8 @@ body{
     height: 500px;
 }
 .step2{
-    background-color: rgb(48, 11, 90);
+    background-color: blueviolet;
+    background: linear-gradient( 45deg, #c2bf0a, #410329);
     width: 50%;
     height: 500px;
 }
@@ -39,6 +40,7 @@ body{
     border-bottom: none;
     border-left: none;
     border-right: none;
+    
 }
 .space:hover{
     background-color: yellow;
